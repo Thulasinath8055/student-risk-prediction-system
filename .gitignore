@@ -1,0 +1,131 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data (never commit raw data!)
+data/*.csv
+data/*.xlsx
+data/*.pkl
+data/*.joblib
+data/*.parquet
+data/*.sqlite
+
+# Large datasets / cache
+.cache/
+datasets/
+raw_data/
+processed_data/
+
+# ML models (save only final production model)
+models/*.joblib
+models/*.pkl
+models/*~  # backup files
+!models/student_risk_pipeline.joblib  # ← Keep ONLY your final model
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+secrets/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Deployment
+.streamlit/
+.streamlit/config.toml
+.nyc_output
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# PyInstaller
+/*.spec
+/__pycache__/
+
+# pyenv
+.python-version
+
+# VS Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
